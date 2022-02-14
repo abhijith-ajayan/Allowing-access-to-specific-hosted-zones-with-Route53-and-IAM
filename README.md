@@ -15,7 +15,7 @@ if the main domain Hosted Zone is in the same account itself, make sure that you
 
 >![alt text](https://i.ibb.co/r2wzPVF/DNS-ZONE.png)
 
-Also, you can create a aws route53 subdomain delegation that uses Amazon Route53 as the DNS service without migrating the parent domain from another DNS service. When you want to aws route53 subdomain delegation without migrating the parent domain, you start by creating a hosted zone for the subdomain. Route53 stores information about your subdomain in the hosted zone and make sure that you have entered the NS details in the main domain DNS.
+Also, you can create a aws route53 subdomain delegation that uses Amazon Route53 as the DNS service without migrating the parent domain from another DNS service, you can start by creating a hosted zone for the subdomain in Route53. Route53 stores information about your subdomain in the hosted zone and make sure that you have entered the NS details of subdomain in the main domain DNS aswell.
 
 
 
