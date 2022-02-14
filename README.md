@@ -50,7 +50,7 @@ Also, you can create a aws route53 subdomain delegation that uses Amazon Route53
 
 5. Now try accessing the Hosted Zone using the newly created user. You need to access the hosted Zone with each Hosted Zone url, easiest way to do this is to go to the hosted zone in the console and look for the string at the end of the URL: https://console.aws.amazon.com/route53/home?#resource-record-sets:Z016140111MP5BH . Try accessing this url with the new user credentials.
 
-Please note that the above policy let them do anything they want to the hosted zone. So revoke the changes once everything is done.
+Please note that the above policy let them do anything they want to in the specific hosted zone. So revoke the changes once everything is done.
 
 ## Sample Screenshot
 
